@@ -1,0 +1,133 @@
+#hometitle{
+    position: absolute;
+    width:80%;
+    height:10%;
+    top:25%;
+    left:10%;
+    text-align: center;
+    font-family: K2D;
+    font-size: 35px;
+    color:black;
+}
+.data11{
+    position:absolute;
+    width:35%;
+    height:10%;
+    top:40%;
+    left:32%;
+    display:flex;
+    align-items: center;
+}
+#label11{
+    display: flex;
+    font-family:K2D;
+    font-size: 30px;
+    color:black;
+}
+#box11{
+    display: flex;
+    font-family:K2D;
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    margin-left: 2%;
+}
+#box12{
+    display: flex;
+    font-family:K2D;
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    margin-left: 15%;
+}
+.data12{
+    position:absolute;
+    width:35%;
+    height:10%;
+    top:55%;
+    left:32%;
+    display:flex;
+    align-items: center;
+}
+#submission1{
+    position: absolute;
+    width:15%;
+    height:10%;
+    top:70%;
+    left:40%;
+    background: #0085FF;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center;
+}
+#submittext{
+    font-family: K2D;
+    color: white;
+    font-size: 20px;
+}
+@media (max-width:900px) {
+    .data11{
+        position:absolute;
+        width:50%;
+        left:20%;
+        display: block;
+    }
+    .data12{
+        position:absolute;
+        width:50%;
+        left:20%;
+        display: block;
+    }
+    #label11{
+        font-size: 35px;
+    }
+    #box11{
+        font-size: 35px;
+    }
+    #box12{
+        font-size: 35px;
+    }
+    #submission1{
+        width:40%;
+        left:30%;
+        top:80%;
+    }
+    
+}
+@media (max-width:500px) {
+    #hometitle{
+        font-size: 30px;
+    }
+    #label11{
+        font-size: 25px;
+    }
+    #box11{
+        font-size: 25px;
+    }
+    #box12{
+        font-size: 25px;
+    }
+    #submission1{
+        width:50%;
+        left:25%;
+        top:75%;
+    }
+}
+@media (max-width:400px) {
+    #hometitle{
+        font-size: 20px;
+    }
+    #label11{
+        font-size: 15px;
+    }
+    #box11{
+        font-size: 15px;
+    }
+    #box12{
+        font-size: 15px;
+    }
+    #submittext{
+        font-size: 15px;
+    }
+}
+
